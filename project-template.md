@@ -1,29 +1,29 @@
-# Project: [Project Title]
+# Project: CrashSentinel
 
-> **Company:** [Company Name]
+> **Company:** MuLearn
 > **Vertical:** [Vertical]
-> **Type:** Open Source / Research / Prototype
-> **Status:** Idea / In Progress / Completed
+> **Type:** Prototype
+> **Status:** Idea
 
 ---
 
 ## Project Summary
 
-_What is this project? What does it build? What problem does it address?_
+CrashSentinel is a local AI-powered crash detection and analysis system built with Python, FastAPI, and React. It monitors your system logs and Windows Event Logs in real-time, automatically detects crashes, and uses Gemma 4 (running locally via Ollama) to explain what went wrong in plain English. It also predicts future crashes by recognizing warning patterns from past crash history.
 
 ---
 
 ## Motivation
 
-_Why does this project need to exist? What gap does it fill in the ecosystem?_
+Most crash analysis tools either require cloud access, expensive licenses, or deep technical knowledge to interpret logs. CrashSentinel fills that gap by running entirely offline on your own machine using a local AI model, making crash analysis accessible to everyone — from developers to everyday users — without sending any data to external servers.
 
 ---
 
 ## Goals
 
-- Goal 1
-- Goal 2
-- Goal 3
+- Automatically detect system crashes from Windows Event Logs and syslogs
+- Use Gemma 4 AI to explain crashes in plain English
+- Keep everything 100% local — no cloud, no data sharing
 
 ---
 
@@ -45,7 +45,7 @@ _How will this be built? What are the key components, architecture decisions, an
 
 ## How to Contribute
 
-_What roles are needed? What skills are required? How can someone get started?_
+https://github.com/NKKONLINE/crashsentinel
 
 **Skills Needed:**
 - 
